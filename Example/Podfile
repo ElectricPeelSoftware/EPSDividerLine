@@ -1,0 +1,10 @@
+target 'EPSDividerLine', :exclusive => true do
+  pod "EPSDividerLine", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "EPSDividerLine", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
